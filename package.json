@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajperez0705/forkify-app.git"
+  },
+  "author": "Andrew Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajperez0705/forkify-app/issues"
+  },
+  "homepage": "https://github.com/ajperez0705/forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.1",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
